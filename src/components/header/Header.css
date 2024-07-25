@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

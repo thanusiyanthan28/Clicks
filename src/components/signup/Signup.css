@@ -1,0 +1,86 @@
+/* SignUp.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .signup-main {
+    background-image: url('../../assets/Login/hd-wallpaper-35.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Center the child vertically */
+    justify-content: center; /* Center the child horizontally */
+    position: relative;
+  }
+  
+  .signup-sub {
+    background: rgba(0, 0, 0, 0.5);
+    height: 70%;
+    width: 80%;
+    max-width: 400px; /* Optional: to restrict maximum width */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Optional: to round the corners */
+    color: white;
+  }
+  
+  .avatar {
+    width: 70px; /* Adjust size as needed */
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .signup-input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #45a049; /* Hover effect */
+  }
+  
+  .signup-option {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-option span {
+    margin-right: 5px;
+  }
+  
+  .signup-link {
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  @media only screen and (max-width: 768px) {
+    .signup-sub {
+        height: 50%;
+    }
+  }

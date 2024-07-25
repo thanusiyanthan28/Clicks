@@ -1,0 +1,158 @@
+/* Login.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-main {
+    background-image: url('../../assets/Login/hd-wallpaper-35.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Vertically center the child */
+    justify-content: center; /* Horizontally center the child */
+    position: relative; /* For absolute positioning of child elements */
+  }
+  
+  .login-sub {
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    height: 60%; /* Takes 50% of the height of the parent */
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Optional: Maximum width */
+    padding: 15px;
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for better look */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Text color */
+    position: absolute;
+    top: 50%; /* Move down 50% of the parent's height */
+    left: 50%; /* Move right 50% of the parent's width */
+    transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+  }
+  
+  .avatar img {
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .login-form {
+    width: 100%; /* Ensures the form elements take the full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .forgot-password {
+    align-self: flex-end; /* Align the link to the right */
+  
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+    margin-right: 10%;
+   
+ 
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .login-button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  .forget-password{
+    margin-top: -5px;
+    float: right;
+    margin-right: 0px;
+  }
+  .signup-option {
+    /* margin-top: 20px; */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-option span {
+    margin-right: 5px;
+  }
+  
+  .signup-link {
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  @media only screen and (max-width: 768px) {
+    .login-sub {
+        height: 50%;
+    }
+  }
+  .login-input-email{
+  width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ align-items: center;
+
+  }
+  .login-input-password{
+    display: flex;
+    gap: 10px;
+    width: 80%;
+  }
+  /* .password-icon{
+    width: 10%;
+    position: absolute;
+    margin-left: 70% !important;
+    margin-top: 20px !important;
+    margin-bottom: auto !important;
+    z-index: 1000;
+  } */
+   /* LoginForm.css */
+
+   .password-icon {
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(0, 0, 0); /* Set the color to black */
+    pointer-events: auto; /* Ensure icon clicks are registered */
+    margin-top: 20px;
+    z-index: 1000;
+  }
